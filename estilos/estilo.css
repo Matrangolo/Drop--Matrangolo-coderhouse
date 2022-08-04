@@ -1,0 +1,502 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+/*mobile */
+@media only screen and (min-width: 0px) and (max-width: 767px){
+body{
+background-color: rgb(0, 0, 0);
+font-family:'Roboto', sans-serif;
+height: 100vh;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+.contenedor{
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: fr 0.5fr 2fr 1fr ;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+header{
+    grid-area: header;
+    background-color: rgb(11, 163, 11);
+    height: 105px;
+width: 100%;
+overflow-y: hidden;
+overflow-x: hidden;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}
+
+header .imagen__logo{
+    position: relative;
+    width: 105px;
+}
+
+.imagen__logo__dos{
+    position: relative;
+    width: 105px;
+    margin-left: 85%;
+    top: -105px
+}
+
+.titulos__drop{
+    position: absolute;
+font-size: 50px;
+margin-left: 105px;
+top: 5%;
+}
+
+
+.titulos__drop__envios{
+    position: absolute;
+    font-size: 15px;
+    right:60px;
+    top: 60px;
+}
+.navegacion {
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+a{
+text-decoration: none;
+color: white;
+}
+
+nav a{
+position: relative;
+font-weight: 800;
+padding: 25px;
+display: inline-block;
+}
+
+.titulacionBienvenida{
+color: white;
+font-size: 3.5em;
+text-align: center;
+padding-top: 3%;
+}
+
+.titulacionBienvenida__foto{
+ width: 25%;
+ padding-left: 60%;
+ padding-top: 2%;
+}
+
+.mensaje{
+    position: relative;
+color: white;
+padding: auto;
+padding-left: 15%;
+top: -150px;
+}
+
+footer{
+background-color: rgb(11, 163, 11);
+position: absolute;
+text-align: center;
+bottom: 0;
+padding: 1em 0;
+width: 100%;
+}
+
+.footer__seguinos{
+    color: rgb(0, 0, 0);
+}
+
+footer h4{
+    position: relative;
+    left: 67em;
+}
+
+.iconos{
+position: relative;
+margin-left: 2%;
+top: 1em;
+}
+
+.productos{
+color: white;
+} 
+
+.productos__titulo{
+font-size: 2.5em;
+ text-align: left;
+ padding-left: 100px;
+ padding-top: 20px;
+}
+
+.productos__subtitulo{
+    text-align: left;
+    padding-left: 100px;
+}
+
+.productos__galeria{
+padding: 15px;
+margin-left: 5%;
+margin-right: 5%; 
+display: flex;
+flex-direction: row;
+overflow-x: scroll;
+}
+
+.productosBarra{
+padding-left: 25px;
+}
+
+.marcas{
+color: white;
+}
+
+.marcas__titulo{
+    font-size: 2.5em;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 20px;
+    }
+
+.marcas__subtitulo{
+    text-align: left;
+    padding-left: 100px;
+}
+
+.navegadorMarcas{
+    padding: 4em;
+    margin-left: 2.5em;
+}
+
+.imagenesMarcas{
+    position:relative;
+    padding: 15px;
+margin-left: 50%;
+margin-top: -350px;
+}
+
+.logosMarcas{
+    padding-left: 100px;
+    padding-top: 25px;  
+}
+
+.navegadorMarcas li{
+color: green;
+padding-top: 5px;
+}
+
+.nosotros{
+color: white;
+}
+
+.nosotros__h1{
+text-align: left;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.nosotros__p1{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nosotros__img1{
+    position: absolute;
+padding-left: 1000px;
+top: 190px;
+}
+
+    .nosotros__img2{
+        position: absolute;
+        padding-left: 720px;
+        top: 280px;
+    }
+
+ .imagenUsuario{
+ position: absolute;
+ top: 240px;
+ left: 80px;
+
+}
+
+    .contactanos{
+    color: white;
+    border-color: green;
+    font-size: 30px;
+    margin-left: 150px;
+    padding-bottom: 5px;
+    }
+
+    .formulario{
+    color: white;
+    font-size: 25px;
+    padding: 50px;
+    }
+}
+/*compu*/
+@media only screen and (min-width: 768px){
+    body{
+    background-color: rgb(0, 0, 0);
+    font-family:'Roboto', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+    
+    .contenedor{
+        height: 100vh;
+        display: grid;
+        gap: 1rem;
+        grid-template-rows: fr 0.5fr 2fr 1fr ;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer";
+    }
+    
+    header{
+        grid-area: header;
+        background-color: rgb(11, 163, 11);
+        height: 105px;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    }
+    
+    nav{
+        grid-area: nav;
+    }
+    
+    main{
+        grid-area: main;
+    }
+    
+    footer{
+        grid-area: footer;
+    }
+    
+    header .imagen__logo{
+        position: relative;
+        width: 105px;
+    }
+    
+    .imagen__logo__dos{
+        position: relative;
+        width: 105px;
+        margin-left: 93%;
+        top: -105px
+    }
+    
+    .titulos__drop{
+        position: absolute;
+    font-size: 50px;
+    margin-left: 105px;
+    top: 5%;
+    }
+    
+    
+    .titulos__drop__envios{
+        position: absolute;
+        font-size: 15px;
+        right:80px;
+        top: 60px;
+    }
+    .navegacion {
+        display: flex;
+        justify-content: center;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    a{
+    text-decoration: none;
+    color: white;
+    }
+    
+    nav a{
+    position: relative;
+    font-weight: 800;
+    padding: 25px;
+    display: inline-block;
+    }
+    
+    .titulacionBienvenida{
+    color: white;
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 3%;
+    }
+    
+    .titulacionBienvenida__foto{
+     width: 25%;
+     padding-left: 60%;
+     padding-top: 2%;
+    }
+    
+    .mensaje{
+        position: relative;
+    color: white;
+    padding: auto;
+    padding-left: 15%;
+    top: -150px;
+    }
+    
+    footer{
+    background-color: rgb(11, 163, 11);
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    padding: 1em 0;
+    width: 100%;
+    }
+    
+    .footer__seguinos{
+        color: rgb(0, 0, 0);
+    padding-right: 90%;
+    }
+    
+    footer h4{
+        position: relative;
+        left: 67em;
+    }
+    
+    .iconos{
+    position: absolute;
+    left: 76em;
+    top: 1.5em;
+    }
+    
+    .productos{
+    color: white;
+    } 
+    
+    .productos__titulo{
+    font-size: 2.5em;
+     text-align: left;
+     padding-left: 100px;
+     padding-top: 20px;
+    }
+    
+    .productos__subtitulo{
+        text-align: left;
+        padding-left: 100px;
+    }
+    
+    .productos__galeria{
+    padding: 15px;
+    margin-left: 5%;
+    margin-right: 5%; 
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    }
+    
+    .productosBarra{
+    padding-left: 25px;
+    }
+    
+    .marcas{
+    color: white;
+    }
+    
+    .marcas__titulo{
+        font-size: 2.5em;
+        text-align: left;
+        padding-left: 100px;
+        padding-top: 20px;
+        }
+    
+    .marcas__subtitulo{
+        text-align: left;
+        padding-left: 100px;
+    }
+    
+    .navegadorMarcas{
+        padding: 4em;
+        margin-left: 2.5em;
+    }
+    
+    .imagenesMarcas{
+        position:relative;
+        padding: 15px;
+    margin-left: 50%;
+    margin-top: -350px;
+    }
+    
+    .logosMarcas{
+        padding-left: 100px;
+        padding-top: 25px;  
+    }
+    
+    .navegadorMarcas li{
+    color: green;
+    padding-top: 5px;
+    }
+    
+    .nosotros{
+    color: white;
+    }
+    
+    .nosotros__h1{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+    
+    .nosotros__p1{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .nosotros__img1{
+        position: absolute;
+    padding-left: 1000px;
+    top: 190px;
+    }
+    
+        .nosotros__img2{
+            position: absolute;
+            padding-left: 720px;
+            top: 280px;
+        }
+    
+     .imagenUsuario{
+     position: absolute;
+     top: 165px;
+    }
+    
+        .contactanos{
+        color: white;
+        border-color: green;
+        font-size: 30px;
+        margin-left: 60px;
+        padding-bottom: 5px;
+        }
+    
+        .formulario{
+        color: white;
+        font-size: 25px;
+        padding: 50px;
+        }
+    }
+
+
+
