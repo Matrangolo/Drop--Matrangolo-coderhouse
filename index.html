@@ -4,36 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./estilos/estilo.css">
     <title>Drop!</title>
 </head>
-<body>
+<body class="font-roboto bg-dark">
   <div class="contenedor">
-  <header>
-    <img class="imagen__logo" src="./imagenes/logo de inicio drop.png" alt="logo_drop">
-    <img class="imagen__logo__dos" src="./imagenes/logo envios.png" alt="logo_envios">
+  <header class="bg-success text-dark">
+    <img class="imagen__logo float-left" src="./imagenes/logo de inicio drop.png" alt="logo_drop" width="110px">
+    <img class="imagen__logo__dos float-right" src="./imagenes/logo envios.png" alt="logo_envios">
     <div class="titulos">
-    <h1 class="titulos__drop">Drop!</h1>
-    <h3 class="titulos__drop__envios">Envios a todo el país</h3>
+    <h1 class="titulos__drop pt-4">Drop!</h1>
+    <h5 class="titulos__drop__envios text-right">Envios a todo el país</h5>
     </div>
   </header>
-  <div class="navegacion">
-  <nav>
+  <div class="container-fluid nav justify-content-center navegacion">
+  <nav class="row">
+    <div class="col">
     <a href="#">Inicio</a>
+  </div>
+    <div class="col">
     <a href="./paginas/productos.html" >Productos</a>
+  </div>
+    <div class="col">
     <a href="./paginas/marcas.html">Marcas</a>
+  </div>
+    <div class="col">
     <a href="./paginas/empresa.html">Empresa</a>
+  </div>
+    <div class="col">
     <a href="./paginas/contacto.html">Contacto</a>
+  </div>
 </nav>
 </div>
    <main>
-   <h3 class="titulacionBienvenida">Titulo inicial</h3>
-   <img class="titulacionBienvenida__foto" src="./imagenes/imagen index.png" alt="imagen inicial">
-   <p class="mensaje">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nesciunt obcaecati esse enim suscipit aspernatur blanditiis <br> quisquam dolorem tempore ipsum, quia, sequi magnam libero laboriosam, <br> beatae nemo dolor ut possimus necessitatibus?</p>
+   <h3 class="mt-2 text-center text-light">Titulo inicial</h3>
+   <img class="mr-5 mt-2 float-right" src="./imagenes/imagen index.png" alt="imagen inicial">
+   <p class="text-light text-left ml-5 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nesciunt obcaecati esse enim suscipit aspernatur blanditiis <br> quisquam dolorem tempore ipsum, quia, sequi magnam libero laboriosam, <br> beatae nemo dolor ut possimus necessitatibus?</p>
   </main>
-   <footer>
-    <h4 class="footer__seguinos">Seguinos en nuestras redes!</h4>
-    <div class="iconos">
+   <footer class="bg-success text-dark footerbt">
+    <h4 class="text-center text-light">Seguinos en nuestras redes!</h4>
+    <div class="">
     <a href="https://www.facebook.com/" target="_blank"> <img src="./imagenes/facebook" alt=""width="30" height="30"></a>
     <a href="https://www.whatsapp.com/" target="_blank"> <img src="./imagenes/whatsapp.png" alt=""width="30" height="30"> </a>
     <a href="https://www.instagram.com/" target="_blank"> <img src="./imagenes/instagram.png" alt="" width="30" height="30"> </a>

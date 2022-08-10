@@ -9,7 +9,6 @@ background-color: rgb(0, 0, 0);
 font-family:'Roboto', sans-serif;
 height: 100vh;
 overflow-x: hidden;
-overflow-y: hidden;
 }
 
 .contenedor{
@@ -319,12 +318,6 @@ top: 190px;
         right:80px;
         top: 60px;
     }
-    .navegacion {
-        display: flex;
-        justify-content: center;
-        overflow-y: hidden;
-        overflow-x: hidden;
-    }
     
     a{
     text-decoration: none;
@@ -366,6 +359,10 @@ top: 190px;
     bottom: 0;
     padding: 1em 0;
     width: 100%;
+    }
+
+    .footerbt{
+        bottom: 0;
     }
     
     .footer__seguinos{
